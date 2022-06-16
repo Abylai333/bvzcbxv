@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import { observer } from "mobx-react-lite";
-import productStore from "../Data/productStore"
 
 export const Header = observer(() => {
     return (

@@ -1,8 +1,5 @@
 import productStore from "../Data/productStore";
 export const Home = () => {
-    const handleClick = () => {
-
-    }
     const clickForChoose = (i) => {
         productStore.AddToCart(i)
     }
